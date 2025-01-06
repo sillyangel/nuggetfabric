@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "nuggetmod:nugget"
+    }
+  },
+  "pattern": [
+    "N N",
+    "NNN",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nuggetmod:nugget_chestplate"
+  }
+}

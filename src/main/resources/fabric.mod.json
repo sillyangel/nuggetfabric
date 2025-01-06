@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "nuggetmod",
+	"id": "nugget",
 	"version": "${version}",
 	"name": "Nugget Mod",
 	"description": "A Fabric mod that brings the meme of Gegagedigedagedago Nugget into the Minecraft, Whether you are building, mining, or battling, this mod introduces nugget around the minecraft theme. Perfect for players looking play with their world with humor and creativity.",
@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xyz.sillyangel.nuggetmod.NuggetMod"
+			"xyz.sillyangel.nugget.NuggetMod"
 		],
 		"fabric-datagen": [
-			"xyz.sillyangel.nuggetmod.NuggetModDataGenerator"
+			"xyz.sillyangel.nugget.NuggetModDataGenerator"
 		],
 		"client": [
-			"xyz.sillyangel.nuggetmod.NuggetModClient"
+			"xyz.sillyangel.nugget.NuggetModClient"
 		]
 	},
 	"mixins": [

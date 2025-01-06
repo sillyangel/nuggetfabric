@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "nuggetmod:nugget"
+    }
+  },
+  "pattern": [
+    "N N",
+    "N N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nuggetmod:nugget_boots"
+  }
+}

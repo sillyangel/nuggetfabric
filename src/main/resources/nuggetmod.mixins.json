@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "xyz.sillyangel.nuggetmod.mixin",
+	"package": "xyz.sillyangel.nugget.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

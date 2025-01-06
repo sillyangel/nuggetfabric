@@ -1,3 +1,5 @@
-// 1.21	2025-01-06T13:43:21.9729246	Nugget Mod/Tags for minecraft:block
+// 1.21	2025-01-06T16:55:56.1497913	Nugget Mod/Tags for minecraft:block
+925a1e7dd6dff693dc33a0b1186272feed97c936 data\nuggetmod\tags\block\needs_nugget_tool.json
 265fffb09f55ddbd810e4aca08e95427b6f8abb8 data\minecraft\tags\block\mineable\pickaxe.json
-cf82532421c6ac581b1da2878d19170dbb20975e data\minecraft\tags\block\needs_stone_tool.json
+1bed560068d3447a32b78ad0be8a1a273dcb9a85 data\minecraft\tags\block\needs_stone_tool.json
+e585b9d90aa9e37a1060c92e1ebcf36671e747a6 data\minecraft\tags\block\needs_diamond_tool.json
