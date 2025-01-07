@@ -44,6 +44,10 @@ public class ModItemGroups {
                         entries.add(ModItems.NUGGET_BOOTS);
 
                         entries.add(ModItems.NUGGET_HORSE_ARMOR);
+
+                        entries.add(ModItems.NUGGET_SMITHING_TEMPLATE);
+
+                        entries.add(ModItems.NUGGET_MUSIC_DISC);
                     }).build());
 
     public static void registerItemGroups() {

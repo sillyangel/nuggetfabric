@@ -7,7 +7,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.resource.featuretoggle.FeatureFlags;
 import xyz.sillyangel.nuggetmod.NuggetMod;
+import xyz.sillyangel.nuggetmod.sound.ModSounds;
 
 import java.util.List;
 
@@ -56,6 +58,11 @@ public class ModItems {
     public static final Item NUGGET_HORSE_ARMOR = registerItem("nugget_horse_armor",
             new AnimalArmorItem(ModArmorMaterials.NUGGET_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, false, new Item.Settings().maxCount(1)));
 
+    public static final Item NUGGET_SMITHING_TEMPLATE = registerItem("nugget_armor_trim_smithing_template",
+            SmithingTemplateItem.of(Identifier.of(NuggetMod.MOD_ID, "nugget"), FeatureFlags.VANILLA));
+
+    public static final Item NUGGET_MUSIC_DISC = registerItem("nugget_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.NUGGET_THEME_KEY).maxCount(1)));
 
     // Helper methods to register items
     private static Item registerItem(String name, Item item) {

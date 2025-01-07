@@ -3,6 +3,8 @@ package xyz.sillyangel.nuggetmod.datagen;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.item.Items;
+import net.minecraft.util.Identifier;
+import xyz.sillyangel.nuggetmod.NuggetMod;
 import xyz.sillyangel.nuggetmod.block.ModBlocks;
 import xyz.sillyangel.nuggetmod.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeExporter;
@@ -112,6 +114,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.NUGGET), conditionsFromItem(ModItems.NUGGET))
                 .offerTo(exporter);
 
+        offerSmithingTrimRecipe(exporter, ModItems.NUGGET_SMITHING_TEMPLATE, Identifier.of(NuggetMod.MOD_ID, "nugget_smithing_template"));
 
 
 //        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_NUGGET, 32)

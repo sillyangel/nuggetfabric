@@ -36,5 +36,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NUGGET_CHESTPLATE)
                 .add(ModItems.NUGGET_LEGGINGS)
                 .add(ModItems.NUGGET_BOOTS);
+        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.NUGGET);
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.NUGGET_SMITHING_TEMPLATE);
     }
 }

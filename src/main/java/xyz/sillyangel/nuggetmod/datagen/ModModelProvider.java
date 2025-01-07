@@ -40,5 +40,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.NUGGET_HORSE_ARMOR, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.NUGGET_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.NUGGET_MUSIC_DISC, Models.GENERATED);
+
     }
 }
