@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"xyz.sillyangel.nugget.NuggetMod"
+			"xyz.sillyangel.nuggetmod.NuggetMod"
 		],
 		"fabric-datagen": [
-			"xyz.sillyangel.nugget.NuggetModDataGenerator"
+			"xyz.sillyangel.nuggetmod.NuggetModDataGenerator"
 		],
 		"client": [
-			"xyz.sillyangel.nugget.NuggetModClient"
+			"xyz.sillyangel.nuggetmod.NuggetModClient"
 		]
 	},
 	"mixins": [
