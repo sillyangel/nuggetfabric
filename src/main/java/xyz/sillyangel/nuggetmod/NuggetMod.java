@@ -5,6 +5,7 @@ import xyz.sillyangel.nuggetmod.block.ModBlocks;
 import xyz.sillyangel.nuggetmod.item.ModItemGroups;
 import xyz.sillyangel.nuggetmod.item.ModItems;
 import xyz.sillyangel.nuggetmod.sound.ModSounds;
+import xyz.sillyangel.nuggetmod.world.gen.ModWorldGeneration;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,5 +20,6 @@ public class NuggetMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModSounds.registerSounds();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

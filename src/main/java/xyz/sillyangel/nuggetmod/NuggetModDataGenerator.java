@@ -6,6 +6,8 @@ import xyz.sillyangel.nuggetmod.datagen.*;
 import xyz.sillyangel.nuggetmod.trim.ModTrimMaterials;
 import xyz.sillyangel.nuggetmod.trim.ModTrimPatterns;
 import net.minecraft.registry.RegistryBuilder;
+import xyz.sillyangel.nuggetmod.world.ModConfiguredFeatures;
+import xyz.sillyangel.nuggetmod.world.ModPlacedFeatures;
 import net.minecraft.registry.RegistryKeys;
 
 public class NuggetModDataGenerator implements DataGeneratorEntrypoint {
@@ -24,5 +26,7 @@ public class NuggetModDataGenerator implements DataGeneratorEntrypoint {
     public void buildRegistry(RegistryBuilder registryBuilder) {
         registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
         registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+        registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
     }
 }
