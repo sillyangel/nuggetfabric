@@ -1,9 +1,9 @@
-// 1.21	2025-01-06T22:15:33.7503157	Nugget Mod/Tags for minecraft:item
-6696561c28d16df0adb8d92349d97926c60fb16e data\minecraft\tags\item\swords.json
-7ee274a0e09881545974624593e4d366c66e3f56 data\minecraft\tags\item\shovels.json
-0c88a553bf1d12729fe857895491e435ecbf8dad data\minecraft\tags\item\hoes.json
-bb7be5aa0b582860d2d8dd7a0f2115ac4dc842a9 data\minecraft\tags\item\trim_materials.json
-ab6bd31a8063a99913c4a6fc41bde37ff0564389 data\minecraft\tags\item\trim_templates.json
-4dd3e16112d5950861571bb8b5212983e5192dfc data\minecraft\tags\item\trimmable_armor.json
-bbde83f3d82a9b4ce7826a8bf096d6b7b5e837be data\minecraft\tags\item\pickaxes.json
-97642dac9f96b8623afd48ec09f149f8b5eabb10 data\minecraft\tags\item\axes.json
+// 1.21	2025-01-07T05:15:39.482913925	Nugget Mod/Tags for minecraft:item
+6696561c28d16df0adb8d92349d97926c60fb16e data/minecraft/tags/item/swords.json
+bb7be5aa0b582860d2d8dd7a0f2115ac4dc842a9 data/minecraft/tags/item/trim_materials.json
+0c88a553bf1d12729fe857895491e435ecbf8dad data/minecraft/tags/item/hoes.json
+ab6bd31a8063a99913c4a6fc41bde37ff0564389 data/minecraft/tags/item/trim_templates.json
+97642dac9f96b8623afd48ec09f149f8b5eabb10 data/minecraft/tags/item/axes.json
+4dd3e16112d5950861571bb8b5212983e5192dfc data/minecraft/tags/item/trimmable_armor.json
+7ee274a0e09881545974624593e4d366c66e3f56 data/minecraft/tags/item/shovels.json
+bbde83f3d82a9b4ce7826a8bf096d6b7b5e837be data/minecraft/tags/item/pickaxes.json

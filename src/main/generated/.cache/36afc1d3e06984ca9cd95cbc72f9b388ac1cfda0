@@ -1,3 +1,5 @@
-// 1.21	2025-01-06T22:15:33.755697	Nugget Mod/
-c26c02f523d403aa4352b30b1a97a95a69a4d97c data\nuggetmod\trim_pattern\nugget.json
-57654a4a151247d7bb7839dcb470ad57c2322ced data\nuggetmod\trim_material\nugget.json
+// 1.21	2025-01-07T05:15:39.484528611	Nugget Mod/
+d25f393bab28a0aa61210026e072f512a81e1dcb data/nuggetmod/worldgen/configured_feature/nugget_ore.json
+852dd8f38d94c4c8aeb265769c3c7a1d5821a326 data/nuggetmod/worldgen/placed_feature/nugget_ore_placed.json
+57654a4a151247d7bb7839dcb470ad57c2322ced data/nuggetmod/trim_material/nugget.json
+c26c02f523d403aa4352b30b1a97a95a69a4d97c data/nuggetmod/trim_pattern/nugget.json
