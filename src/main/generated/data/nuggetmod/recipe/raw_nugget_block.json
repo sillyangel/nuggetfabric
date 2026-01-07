@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
-      "item": "nuggetmod:raw_nugget"
-    }
+    "R": "nuggetmod:raw_nugget"
   },
   "pattern": [
     "RRR",

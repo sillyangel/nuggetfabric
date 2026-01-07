@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:nugget_from_smelting_nugget_deepslate_ore"
+        "recipe": "nuggetmod:nugget_from_smelting_nugget_deepslate_ore"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:nugget_from_smelting_nugget_deepslate_ore"
+      "nuggetmod:nugget_from_smelting_nugget_deepslate_ore"
     ]
   }
 }

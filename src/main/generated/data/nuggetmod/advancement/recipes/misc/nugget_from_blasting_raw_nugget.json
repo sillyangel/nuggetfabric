@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:nugget_from_blasting_raw_nugget"
+        "recipe": "nuggetmod:nugget_from_blasting_raw_nugget"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:nugget_from_blasting_raw_nugget"
+      "nuggetmod:nugget_from_blasting_raw_nugget"
     ]
   }
 }
